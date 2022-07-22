@@ -2,7 +2,7 @@ import './App.css';
 import react, { useState, useEffect } from 'react';
 import { Line } from 'react-chartjs-2';
 
-const App = () => {
+const App = () => { 
   
   const [graph, setGraph] = useState<any>({
     label: [],
